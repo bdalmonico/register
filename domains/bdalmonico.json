@@ -1,0 +1,22 @@
+{
+  "description": "Domínio de testes para integração de email transacional e campanhas via Brevo",
+  "subdomain": "bdalmonico",
+  "owner": {
+    "username": "bdalmonico",
+    "email": "bdalmonico@bdalmonico.is-a.dev"
+  },
+  "record": {
+    "TXT": [
+      "brevo-code:a9fcfd0fa7673158beb19acc01230760",
+      "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
+    ],
+    "CNAME": {
+      "brevo1._domainkey": "b1.bdalmonico-is-a-dev.dkim.brevo.com",
+      "brevo2._domainkey": "b2.bdalmonico-is-a-dev.dkim.brevo.com"
+    },
+    "MX": [
+      "mx1.brevo.com",
+      "mx2.brevo.com"
+    ]
+  }
+}
